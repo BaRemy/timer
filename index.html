@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="image/logo.png">
+    <title>Timer</title>
+</head>
+<body>
+    <h1>Timer</h1>
+    <div id="timer-container">
+        <h5>Lap 1<span class="material-symbols-outlined">timer</span></h5>
+        <div id="timer">
+            00:00
+        </div>
+        <button class="button1" onclick="pause()">
+            <span class="material-symbols-outlined">pause_circle</span>
+        </button>
+        <button class="button2" onclick="play()">
+            <span class="material-symbols-outlined">play_circle</span>
+        </button>
+        <button class="button3" onclick="reset()">
+            <span class="material-symbols-outlined">restart_alt</span>
+        </button>
+    </div>
+    <br>
+    <div id="explore">
+        <h5>Explore Here</h5>
+        <ul class="button-group">
+            <li>Play<span class="material-symbols-outlined">play_circle</span></li>
+            <li>Pause<span class="material-symbols-outlined">pause_circle</span></li>
+            <li>Reset<span class="material-symbols-outlined">restart_alt</span></li>
+        </ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
