@@ -2,6 +2,11 @@ body {
   background-color: #072541;
   font-size: 25px;
   font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 *::selection {
@@ -9,6 +14,9 @@ body {
     color: #fff;
 }
 
+main {
+  flex: 1; /* Allows the main content to take up remaining space */
+}
 
 h1 {
     color: azure;
@@ -165,4 +173,18 @@ li::before {
 
 ul li:hover::after {
     content: "👈";
+}
+
+/* Footer */
+footer {
+    color: aliceblue;
+    margin-top: 10vh;
+    flex-shrink: 0;
+}
+
+.notice {
+    margin: 0;
+    padding: 0;
+    font-size: 0.6em;
+    text-align: center;
 }
