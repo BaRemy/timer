@@ -159,3 +159,7 @@ li::before {
     content: "⚙";
     font-size: 0.5em;
 }
+
+ul li:hover::after {
+    content: "👈";
+}
