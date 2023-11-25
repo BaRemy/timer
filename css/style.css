@@ -22,6 +22,7 @@ h1 {
     color: azure;
     text-align: center;
     text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }
 
 h1:hover {
@@ -52,6 +53,7 @@ h1:hover {
   padding: 0 0.8em 0 0.2em;
   background-color: #072541;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
 #timer:hover {
@@ -68,6 +70,7 @@ h5 {
     padding: 15px;
     gap: 5px;
     border-radius: 40px;
+    transition: all 0.3s ease-in-out;
 }
 
 h5:hover {
@@ -75,6 +78,11 @@ h5:hover {
     opacity: 0.5;
     cursor: grab;
 }
+
+button {
+    transition: all 0.4s ease-in-out;
+}
+
 .button1 {
     display: inline-flex;
     justify-content: center;
@@ -125,6 +133,7 @@ button:hover {
     margin: 0 auto;
     padding: 30px 5px;
     border-radius: 0.4em;
+    transition: all 0.3s ease-in-out;
 }
 
 #explore:hover {
@@ -139,6 +148,7 @@ ul li {
     max-width: fit-content;
     margin: 10px 0;
     gap: 0.2em;
+    transition: all 0.3s ease-in-out;
 }
 
 ul li:nth-child(1) {
@@ -151,6 +161,7 @@ ul li:hover {
     color: cadetblue;
     cursor: pointer;
     opacity: 0.8;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -177,7 +188,7 @@ ul li:hover::after {
 
 /* Footer */
 footer {
-    color: aliceblue;
+    color: #fff;
     margin-top: 10vh;
     flex-shrink: 0;
 }
