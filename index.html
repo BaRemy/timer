@@ -12,31 +12,38 @@
     <title>Timer</title>
 </head>
 <body>
-    <h1>Timer</h1>
-    <div id="timer-container">
-        <h5>Lap 1<span class="material-symbols-outlined">timer</span></h5>
-        <div id="timer">
-            00:00
+    <header>
+        <h1>Timer</h1>
+    </header>
+    <main>
+        <div id="timer-container">
+            <h5>Lap 1<span class="material-symbols-outlined">timer</span></h5>
+            <div id="timer">
+                00:00
+            </div>
+            <button class="button1" onclick="pause()">
+                <span class="material-symbols-outlined">pause_circle</span>
+            </button>
+            <button class="button2" onclick="play()">
+                <span class="material-symbols-outlined">play_circle</span>
+            </button>
+            <button class="button3" onclick="reset()">
+                <span class="material-symbols-outlined">restart_alt</span>
+            </button>
         </div>
-        <button class="button1" onclick="pause()">
-            <span class="material-symbols-outlined">pause_circle</span>
-        </button>
-        <button class="button2" onclick="play()">
-            <span class="material-symbols-outlined">play_circle</span>
-        </button>
-        <button class="button3" onclick="reset()">
-            <span class="material-symbols-outlined">restart_alt</span>
-        </button>
-    </div>
-    <br>
-    <div id="explore">
-        <h5>How It Works:</h5>
-        <ul class="button-group">
-            <li>Pause<span class="material-symbols-outlined">pause_circle</span></li>
-            <li>Play<span class="material-symbols-outlined">play_circle</span></li>
-            <li>Reset<span class="material-symbols-outlined">restart_alt</span></li>
-        </ul>
-    </div>
+        <br>
+        <div id="explore">
+            <h5>How It Works:</h5>
+            <ul class="button-group">
+                <li>Pause<span class="material-symbols-outlined">pause_circle</span></li>
+                <li>Play<span class="material-symbols-outlined">play_circle</span></li>
+                <li>Reset<span class="material-symbols-outlined">restart_alt</span></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p class="notice">&#169;&nbsp;In-process++</p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
