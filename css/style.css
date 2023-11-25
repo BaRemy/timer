@@ -154,3 +154,8 @@ ul li:nth-child(3) {
     padding: 0.2em;
     border-radius: 0.1em;
 }
+
+li::before {
+    content: "⚙";
+    font-size: 0.5em;
+}
